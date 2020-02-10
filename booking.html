@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+        <style>
+            div {
+            display: inline-block;
+        }
+
+            div label {
+            display: block;
+            color: #000000;
+            font-family: 'Open Sans';
+            font-size: small;
+            font-weight: bold;
+        }
+            
+            #Search {
+            width: 7em;
+            height: 3em;
+            color: white;
+            background-color: orangered;
+            font-weight: bold;
+            border: none;
+            border-radius: 0.197em;
+            font-family: "Open Sans";
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <label>Flying from</label>
+            <input type="text" value="Karachi, Pakistan" style='width: 100px'>
+            <label>Departing</label>
+            <input type="date" style='width: 100px'>
+        </div>
+
+        <div>
+            <label>To</label>
+            <input type="text" value="Islamabad, Pakistan" style='width: 100px'>
+            <label>Returning</label>
+            <input type="date" style='width: 100px'>
+        </div>
+        <br>
+        <div>
+            <label>Adult</label>
+            <input type="number" style='width: 40px'>
+        </div>
+        <div>
+            <label>Child</label>
+            <input type="number" style='width: 40px'>
+        </div>
+        <div>
+            <label>Infant</label>
+            <input type="number" style='width: 40px'>
+        </div>
+        <div>
+            <label>Currency</label>
+            <input type="text" value="KPR" style='width: 40px'>
+        </div>
+        <br>
+        <br>
+        <div>
+            <input type="submit" id="Search" value="SEARCH">
+        </div>
+    </body>
+</html>
